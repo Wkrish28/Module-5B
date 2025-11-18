@@ -12,8 +12,22 @@ To write a **NumPy** program that deletes the second column from a given 2D arra
 
 ## 🧾 Program
 
-Add code here
+```
+import numpy as np
+a=eval(input())
+b=np.array(a)
+c=np.min(a,axis=1)
+d=np.max(a,axis=0)
+print("Printing Original array")
+print(b)
+print("Printing amin Of Axis 1")
+print(c)
+print("Printing amax Of Axis 0")
+print(d)
+```
 
 ## Output
+<img width="1180" height="597" alt="image" src="https://github.com/user-attachments/assets/bdfb58fc-4295-4be4-8203-80be1f442d10" />
 
 ## Result
+Thus the python program to print max from axis 0 and min from axis 1 from the given 2-D array has been executed successfully.
